@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seda</title>
+    <link href="images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <!-- <script defer src="simple_abacus.js"></script> -->
+</head>
+<body>
+
+    <header class="navigation hidden_m">
+        <a href="#" class="logo">BrainUp</a>
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#mems">Members</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">seda</a></li>
+        </ul>
+    </header>
+
+    <section class="hidden_m" id="home">
+        <h1>
+            <img class="logo" width=250px src="images/logo1.png" alt="Sedalogo">
+        </h1>
+        <h1>Seda</h1>
+    </section>
+
+    <section class="hidden" id="about">
+        <h2>What is Seda ?</h2>
+        <p>
+            Seda, or calculator in Korean, is simply... A calculator !
+        </p>
+        <p>However you'll see that our aim is not only to calculate simple expressions<br></p>
+        <p>but also to resolve complex equations, realise matrix operations and draw functions.<br></p>
+        <p>isn't it fantastic !</p> 
+    </section>
+
+    <section class="hidden"  id="features">
+        <h1>Features</h1>
+        <p class="attention">
+            This section will be implemented in real time <br>
+        </p>
+        <p class="attention">
+            so you can follow our progression 
+        </p>
+        <p class="attention">you'll be able to test some of the features on this website !</p>
+
+        
+
+
+        <h2>Simple calculations</h2>
+        <p> 
+            This is the heart of Seda. The calculator should receive the input in a string format <br>
+            e.g. "(1-(-1))^3*3+(5*2-(1-3))+sqrt(36)" which shall give us 42. <br> 
+            You'll also be able to use some math functions such as (ln, exp, gcd ...)
+
+        </p>
+        <p> Write an equation and we will try to solve it for you</p>
+        <p>input type: a operand b <br>
+            operand can be either +  -  / or * <br></p>
+        <input class= "solve_input" id="solve_i" type="text" placeholder="write an expression">
+        <button class="solve_button" id="solve_b">solve</button>
+
+        <div><input class="solve_result" id="solve_r" type="text" readonly></div>
+        
+        
+    </section>
+
+    <section id="mems">
+        <h2>Project members</h2>
+        <div class="container">
+
+            <div class="item hidden item_1">
+                <img class="im_g" src="images/rhd.png" alt="rhd">
+                <p class="descript_s">Rohan</p>
+                <p class="descript_h">I am the project leader and will be developping the saveaguard system and some utilities. <br>
+                I will also be helping the team by taking part in the UI developement, some calculus functions implementation and
+                participating to the lexer of Seda.</p>
+            </div>
+
+            <div class="item hidden item_2">
+                <img class="im_g" src="images/led.png" alt="led">
+                <p class="descript_s">Louis</p>
+                <p class="descript_h"> My contribution to this project mainly consists on the UI design and developement. <br>
+                Moreover, I will be implementing some matrix operation algorithms and will handle the function drawing system.</p>
+            </div>
+
+            <div class="item hidden  item_3">
+                <img class="im_g" src="images/glm.png" alt="glm">
+                <p class="descript_s">Guillaume</p>
+                <p class="descript_h">My job consists on the developement of the expression solving algorithm 
+                I am also in charge of the function resolution system developement. <br>
+                In addition to that, I will bring my contribution to the value converter developement.</p>
+            </div>
+
+            <div class="item hidden item_4">
+                <img class="im_g" src="images/mm.png" alt="mm">
+                <p class="descript_s">Matthias</p>
+                <p class="descript_h">
+                    My principal contribution to this project consists on developping the equation system solving. <br>
+                    I am also the one in charge of the website developement and maintenance. I will also be developping a 
+                    value converted as well as bringing my help to the function solving algorithm.
+                </p>
+            </div>
+
+        </div>    
+    </section>
+</body>
+</html>
