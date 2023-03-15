@@ -94,7 +94,56 @@ const observer = new IntersectionObserver((entries)=> {
      
  }
  
- document.getElementsByClassName('').addEventListener('onmouseenter',function(){
+/* document.getElementsByClassName('').addEventListener('onmouseenter',function(){
  
- })
+ })*/
+
+//poly...............................................................
+
+/*function solve(exp){
+	var exp_l = exp.length;
+	var deg_2 = 0;
+	var deg_1 = 0;
+	var deg_0 = 0;
+	var tmp = 0;
+	var check = 0;
+	for(let i = 0; i<exp_l; i++){
+		var curr = exp[i];
+		if(curr == 'x')
+			continue;
+		else if(curr == '^')
+			check = 1;
+		else{
+			if(check == 1){
+				if(curr == '0')
+					deg_0 = curr;
+				else if (curr == '1')
+					deg_1 = curr;
+				else
+					deg_2 = curr;
+				check = 0;
+			}
+			else{
+				tmp += curr - '0';
+			}
+		}
+	}
+	var delta = deg_1*deg_1 - 4*deg_0*deg_2;
+	var x1 = (-deg_1-delta)/(2*deg_0);
+	var x2 = (deg_1-delta)/(2*deg_0);
+	return x1;
+}
+
+document.getElementById('solve_poly').onclick=function(){
+	if(document.getElemtById('input_poly').value == ''){
+		document.getElementById('poly_r').value = " ";
+	}
+	else{
+		var express = document.getElementById('input_poly').value;
+		document.getElementById('poly_r').value = solve(express);
+	}
+}*/
+
+
+
 
