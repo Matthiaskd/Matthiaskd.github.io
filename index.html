@@ -19,6 +19,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#mems">Members</a></li>
             <li><a href="#features">Features</a></li>
+            <li><a href="download.html">Download</a></li>
             <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">seda</a></li>
         </ul>
     </header>
@@ -48,11 +49,6 @@
         <p class="attention">
             so you can follow our progression 
         </p>
-        <p class="attention">you'll be able to test some of the features on this website !</p>
-
-        
-
-
         <h2>Simple calculations</h2>
         <p> 
             This is the heart of Seda. The calculator should receive the input in a string format <br>
@@ -60,13 +56,6 @@
             You'll also be able to use some math functions such as (ln, exp, gcd ...)
 
         </p>
-        <p> Write an expression and we will try to solve it for you</p>
-        <p>input type: a operator b <br>
-            operator can be either +  -  / or * <br></p>
-        <input class= "solve_input" id="solve_i" type="text" placeholder="write an expression">
-        <button class="solve_button" id="solve_b">solve</button>
-
-        <div><input class="solve_result" id="solve_r" type="text" readonly></div>
 
 	<h2>Polynomial Solver</h2>
 	<p>
@@ -75,18 +64,15 @@
 		all the real solutions should be found using the bissection method in combination with<br>
 		the synthetic division.</center>
 	</p>
-	<p>
-		<center>You can try a simple version of this algorithm.<br>
-		Enter an expression in the given box below then 
-		click on solve.</center>
-	</p>
-	<p>
-	 <em>input format: a*x^2 + b*x + c</em>
-	</p>
-	<input class= "solve_input" id = "input_poly" type= "text" placeholder="write an equation">
-	<button class= "solve_button" id = "solve_poly">solve</button>
-	<div><input class= "solve_result" id="poly_r" type= "text" readonly></div>
-        
+    
+    <h2>Polynomial chart</h2>
+    <p><center>After having the calculator solving a given polynomial expression, a char<br> 
+        describing the polynomial is displayed.
+        </center>
+    </p>
+
+    <h2>Converter</h2>
+    <p>A basic system that makes it possible to convert values such as currrency or weight</p>
         
     </section>
 
@@ -128,6 +114,18 @@
             </div>
 
         </div>    
+    </section>
+
+    <section class = "show">
+        <center>
+        <ul class = "sources">
+            <a href="#"><img class = "si2" src="images/c_img.png" alt=""></a>
+            <a href="#"><img class = "si" src="images/python_img.png" alt=""></a>
+            <a href="https://github.com/"><img class = "si2" src="images/git_img.png" alt=""></a>
+            <a href="#"><img class = "si" src="images/gtk_img.png" alt=""></a>
+            <a href="https://www.libsdl.org/"><img class = "si" src="images/sdl_img.png" alt=""></a>
+        </ul>
+        </center>
     </section>
 </body>
 </html>

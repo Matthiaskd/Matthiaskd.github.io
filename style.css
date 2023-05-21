@@ -282,4 +282,41 @@ section {
     border-color: #01507b;
 }
 
+.sources li{
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.si{
+    width: 3.2cm;
+    height: 3cm;
+    margin-left: 1cm;
+    border-radius: 1.5cm;
+}
 
+.si2{
+    width: 3.7cm;
+    height: 3cm;
+    margin-left: 1cm;
+    border-radius: 1.85cm;
+}
+
+.si3{
+    display:inline;
+    width: 4cm;
+    height: 4cm;
+    margin-right: 3cm;
+    margin-left: 3cm;
+    border-radius:1cm;
+}
+.si4{
+    display:inline;
+    width: 4cm;
+    height: 4cm;
+    margin-right: 4.2cm;
+    margin-left: 4.5cm;
+    border-radius:1cm;
+}
+
+.source2{
+    margin-left: 5cm;
+}
